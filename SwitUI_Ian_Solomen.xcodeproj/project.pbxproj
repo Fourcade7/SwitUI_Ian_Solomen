@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */; };
+		C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CADA2B83ECCE009CD3BD /* ContentView.swift */; };
+		C077CADD2B83ECCE009CD3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077CADC2B83ECCE009CD3BD /* Assets.xcassets */; };
+		C077CAE02B83ECCE009CD3BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077CADF2B83ECCE009CD3BD /* Preview Assets.xcassets */; };
+		C077CAEA2B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAE92B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.swift */; };
+		C077CAF42B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAF32B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift */; };
+		C077CAF62B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAF52B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C077CAE62B83ECCF009CD3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C077CACD2B83ECCE009CD3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C077CAD42B83ECCE009CD3BD;
+			remoteInfo = SwitUI_Ian_Solomen;
+		};
+		C077CAF02B83ECCF009CD3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C077CACD2B83ECCE009CD3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C077CAD42B83ECCE009CD3BD;
+			remoteInfo = SwitUI_Ian_Solomen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C077CAD52B83ECCE009CD3BD /* SwitUI_Ian_Solomen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUI_Ian_Solomen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenApp.swift; sourceTree = "<group>"; };
+		C077CADA2B83ECCE009CD3BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C077CADC2B83ECCE009CD3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C077CADF2B83ECCE009CD3BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C077CAE52B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitUI_Ian_SolomenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C077CAE92B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenTests.swift; sourceTree = "<group>"; };
+		C077CAEF2B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitUI_Ian_SolomenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C077CAF32B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenUITests.swift; sourceTree = "<group>"; };
+		C077CAF52B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C077CAD22B83ECCE009CD3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAE22B83ECCF009CD3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAEC2B83ECCF009CD3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C077CACC2B83ECCE009CD3BD = {
+			isa = PBXGroup;
+			children = (
+				C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */,
+				C077CAE82B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests */,
+				C077CAF22B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests */,
+				C077CAD62B83ECCE009CD3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C077CAD62B83ECCE009CD3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C077CAD52B83ECCE009CD3BD /* SwitUI_Ian_Solomen.app */,
+				C077CAE52B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.xctest */,
+				C077CAEF2B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
+			isa = PBXGroup;
+			children = (
+				C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */,
+				C077CADA2B83ECCE009CD3BD /* ContentView.swift */,
+				C077CADC2B83ECCE009CD3BD /* Assets.xcassets */,
+				C077CADE2B83ECCE009CD3BD /* Preview Content */,
+			);
+			path = SwitUI_Ian_Solomen;
+			sourceTree = "<group>";
+		};
+		C077CADE2B83ECCE009CD3BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C077CADF2B83ECCE009CD3BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C077CAE82B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests */ = {
+			isa = PBXGroup;
+			children = (
+				C077CAE92B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.swift */,
+			);
+			path = SwitUI_Ian_SolomenTests;
+			sourceTree = "<group>";
+		};
+		C077CAF22B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C077CAF32B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift */,
+				C077CAF52B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift */,
+			);
+			path = SwitUI_Ian_SolomenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C077CAD42B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C077CAF92B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_Solomen" */;
+			buildPhases = (
+				C077CAD12B83ECCE009CD3BD /* Sources */,
+				C077CAD22B83ECCE009CD3BD /* Frameworks */,
+				C077CAD32B83ECCE009CD3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitUI_Ian_Solomen;
+			productName = SwitUI_Ian_Solomen;
+			productReference = C077CAD52B83ECCE009CD3BD /* SwitUI_Ian_Solomen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C077CAE42B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C077CAFC2B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_SolomenTests" */;
+			buildPhases = (
+				C077CAE12B83ECCF009CD3BD /* Sources */,
+				C077CAE22B83ECCF009CD3BD /* Frameworks */,
+				C077CAE32B83ECCF009CD3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C077CAE72B83ECCF009CD3BD /* PBXTargetDependency */,
+			);
+			name = SwitUI_Ian_SolomenTests;
+			productName = SwitUI_Ian_SolomenTests;
+			productReference = C077CAE52B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C077CAEE2B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C077CAFF2B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_SolomenUITests" */;
+			buildPhases = (
+				C077CAEB2B83ECCF009CD3BD /* Sources */,
+				C077CAEC2B83ECCF009CD3BD /* Frameworks */,
+				C077CAED2B83ECCF009CD3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C077CAF12B83ECCF009CD3BD /* PBXTargetDependency */,
+			);
+			name = SwitUI_Ian_SolomenUITests;
+			productName = SwitUI_Ian_SolomenUITests;
+			productReference = C077CAEF2B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C077CACD2B83ECCE009CD3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C077CAD42B83ECCE009CD3BD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C077CAE42B83ECCF009CD3BD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C077CAD42B83ECCE009CD3BD;
+					};
+					C077CAEE2B83ECCF009CD3BD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C077CAD42B83ECCE009CD3BD;
+					};
+				};
+			};
+			buildConfigurationList = C077CAD02B83ECCE009CD3BD /* Build configuration list for PBXProject "SwitUI_Ian_Solomen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C077CACC2B83ECCE009CD3BD;
+			productRefGroup = C077CAD62B83ECCE009CD3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C077CAD42B83ECCE009CD3BD /* SwitUI_Ian_Solomen */,
+				C077CAE42B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests */,
+				C077CAEE2B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C077CAD32B83ECCE009CD3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077CAE02B83ECCE009CD3BD /* Preview Assets.xcassets in Resources */,
+				C077CADD2B83ECCE009CD3BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAE32B83ECCF009CD3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAED2B83ECCF009CD3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C077CAD12B83ECCE009CD3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */,
+				C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAE12B83ECCF009CD3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077CAEA2B83ECCF009CD3BD /* SwitUI_Ian_SolomenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C077CAEB2B83ECCF009CD3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C077CAF62B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift in Sources */,
+				C077CAF42B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C077CAE72B83ECCF009CD3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C077CAD42B83ECCE009CD3BD /* SwitUI_Ian_Solomen */;
+			targetProxy = C077CAE62B83ECCF009CD3BD /* PBXContainerItemProxy */;
+		};
+		C077CAF12B83ECCF009CD3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C077CAD42B83ECCE009CD3BD /* SwitUI_Ian_Solomen */;
+			targetProxy = C077CAF02B83ECCF009CD3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C077CAF72B83ECCF009CD3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C077CAF82B83ECCF009CD3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C077CAFA2B83ECCF009CD3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwitUI_Ian_Solomen/Preview Content\"";
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-Solomen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C077CAFB2B83ECCF009CD3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwitUI_Ian_Solomen/Preview Content\"";
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-Solomen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C077CAFD2B83ECCF009CD3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-SolomenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitUI_Ian_Solomen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwitUI_Ian_Solomen";
+			};
+			name = Debug;
+		};
+		C077CAFE2B83ECCF009CD3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-SolomenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitUI_Ian_Solomen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwitUI_Ian_Solomen";
+			};
+			name = Release;
+		};
+		C077CB002B83ECCF009CD3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-SolomenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitUI_Ian_Solomen;
+			};
+			name = Debug;
+		};
+		C077CB012B83ECCF009CD3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZDJ9M3S34;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pr7.swiftuiseries.SwitUI-Ian-SolomenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitUI_Ian_Solomen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C077CAD02B83ECCE009CD3BD /* Build configuration list for PBXProject "SwitUI_Ian_Solomen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C077CAF72B83ECCF009CD3BD /* Debug */,
+				C077CAF82B83ECCF009CD3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C077CAF92B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_Solomen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C077CAFA2B83ECCF009CD3BD /* Debug */,
+				C077CAFB2B83ECCF009CD3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C077CAFC2B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_SolomenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C077CAFD2B83ECCF009CD3BD /* Debug */,
+				C077CAFE2B83ECCF009CD3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C077CAFF2B83ECCF009CD3BD /* Build configuration list for PBXNativeTarget "SwitUI_Ian_SolomenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C077CB002B83ECCF009CD3BD /* Debug */,
+				C077CB012B83ECCF009CD3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C077CACD2B83ECCE009CD3BD /* Project object */;
+}

@@ -11,7 +11,7 @@ import SwiftUI
 struct SwitUI_Ian_SolomenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            lesson1()
         }
     }
 }

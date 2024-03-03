@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct lesson1:View{
+ struct lesson1:View{
     var body:some View{
         NavigationStack{
             VStack(alignment:.leading){
@@ -22,7 +22,7 @@ struct lesson1:View{
        
     }
 }
-struct lesson1_2:View{
+private struct lesson1_2:View{
     var body:some View{
         NavigationStack{
             VStack(alignment:.leading){
@@ -42,7 +42,7 @@ struct lesson1_2:View{
     }
 }
 
-struct lesson1_3:View{
+private struct lesson1_3:View{
     var body:some View{
         NavigationStack{
             VStack(spacing: 10){
@@ -58,7 +58,7 @@ struct lesson1_3:View{
 }
 
 
-struct lesson1_4:View{
+private struct lesson1_4:View{
     var body:some View{
         NavigationStack{
             VStack(spacing: 10){
@@ -73,7 +73,7 @@ struct lesson1_4:View{
     }
 }
 
-struct lesson1_5:View{
+private struct lesson1_5:View{
     var body:some View{
         
         VStack(spacing:10){
@@ -111,7 +111,7 @@ struct lesson1_5:View{
     }
 }
 
-struct lesson1_6:View{
+private struct lesson1_6:View{
     var body:some View{
         NavigationStack{
             VStack(spacing: 10){
@@ -162,7 +162,7 @@ struct lesson1_6:View{
                             .clipped()
                     }
                 }.padding()
-                Spacer()
+               // Spacer()
             }
             .navigationTitle("Yemasang yut")
         }
@@ -171,7 +171,7 @@ struct lesson1_6:View{
 }
 
 
-struct lesson1_7:View{
+private struct lesson1_7:View{
     var body:some View{
         NavigationStack{
             VStack{
@@ -262,6 +262,6 @@ struct lesson1_7:View{
 
 struct lesson1_preview:PreviewProvider{
     static var previews: some View{
-        lesson1_7()
+        lesson1_6()
     }
 }

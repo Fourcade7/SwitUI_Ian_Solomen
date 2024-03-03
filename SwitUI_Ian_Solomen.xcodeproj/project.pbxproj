@@ -15,6 +15,7 @@
 		C077CAF42B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAF32B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift */; };
 		C077CAF62B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAF52B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift */; };
 		C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C079697E2B8508D900434BE1 /* VHZStacks.swift */; };
+		C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C077CAF32B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenUITests.swift; sourceTree = "<group>"; };
 		C077CAF52B83ECCF009CD3BD /* SwitUI_Ian_SolomenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C079697E2B8508D900434BE1 /* VHZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHZStacks.swift; sourceTree = "<group>"; };
+		C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWIthText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
 			isa = PBXGroup;
 			children = (
+				C0D367A12B93B945001966F0 /* 2_Text */,
 				C079697D2B85085800434BE1 /* 1_VHZStacks */,
 				C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */,
 				C077CADC2B83ECCE009CD3BD /* Assets.xcassets */,
@@ -136,6 +139,14 @@
 				C079697E2B8508D900434BE1 /* VHZStacks.swift */,
 			);
 			path = 1_VHZStacks;
+			sourceTree = "<group>";
+		};
+		C0D367A12B93B945001966F0 /* 2_Text */ = {
+			isa = PBXGroup;
+			children = (
+				C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */,
+			);
+			path = 2_Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */,
+				C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */,
 				C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */,
 				C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */,
 			);

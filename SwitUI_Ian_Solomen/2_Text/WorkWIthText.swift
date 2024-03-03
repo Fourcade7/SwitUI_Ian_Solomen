@@ -15,7 +15,7 @@ private struct lesson2_0:View{
         VStack{
             
             
-            Text("Any SfwiftUI view can have its corners rounded using the cornerRadius() modifier. This takes a simple value in points that controls how pronounced the rounding should be.")
+            Text("123Any SfwiftUI view can have its corners rounded using the cornerRadius() modifier. This takes a simple value in points that controls how pronounced the rounding should be.")
                 .padding()
                 .lineLimit(nil)
                 .font(.title2)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00FE3BD2B98922B000B928D /* WorkWithGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FE3BC2B98922B000B928D /* WorkWithGradients.swift */; };
 		C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */; };
 		C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CADA2B83ECCE009CD3BD /* ContentView.swift */; };
 		C077CADD2B83ECCE009CD3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077CADC2B83ECCE009CD3BD /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C00FE3BC2B98922B000B928D /* WorkWithGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithGradients.swift; sourceTree = "<group>"; };
 		C077CAD52B83ECCE009CD3BD /* SwitUI_Ian_Solomen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUI_Ian_Solomen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenApp.swift; sourceTree = "<group>"; };
 		C077CADA2B83ECCE009CD3BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00FE3BB2B989207000B928D /* 4_Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				C00FE3BC2B98922B000B928D /* WorkWithGradients.swift */,
+			);
+			path = 4_Gradient;
+			sourceTree = "<group>";
+		};
 		C077CACC2B83ECCE009CD3BD = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
 			isa = PBXGroup;
 			children = (
+				C00FE3BB2B989207000B928D /* 4_Gradient */,
 				C0EABFD42B97B3740045A7B4 /* 3_Image */,
 				C0D367A12B93B945001966F0 /* 2_Text */,
 				C079697D2B85085800434BE1 /* 1_VHZStacks */,
@@ -294,6 +305,7 @@
 				C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */,
 				C0EABFD62B97B39A0045A7B4 /* WorkWithImage.swift in Sources */,
 				C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */,
+				C00FE3BD2B98922B000B928D /* WorkWithGradients.swift in Sources */,
 				C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

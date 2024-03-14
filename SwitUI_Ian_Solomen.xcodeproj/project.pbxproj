@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C00FE3BD2B98922B000B928D /* WorkWithGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FE3BC2B98922B000B928D /* WorkWithGradients.swift */; };
+		C0567A212BA0DE4A00C5509F /* WorkWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0567A202BA0DE4A00C5509F /* WorkWithList.swift */; };
 		C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */; };
 		C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C077CADA2B83ECCE009CD3BD /* ContentView.swift */; };
 		C077CADD2B83ECCE009CD3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077CADC2B83ECCE009CD3BD /* Assets.xcassets */; };
@@ -18,7 +19,12 @@
 		C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C079697E2B8508D900434BE1 /* VHZStacks.swift */; };
 		C099914C2B9B7B4500B1173B /* WorkWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099914B2B9B7B4500B1173B /* WorkWithButton.swift */; };
 		C09E7AB12B9A461B00F30281 /* WorkWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09E7AB02B9A461B00F30281 /* WorkWithToggle.swift */; };
+		C0A196142B9DD4480080BACF /* WorkWithClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A196132B9DD4480080BACF /* WorkWithClick.swift */; };
 		C0A7882A2B9BA44F00269362 /* WorkWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A788292B9BA44F00269362 /* WorkWithTextField.swift */; };
+		C0A7882D2B9BA69D00269362 /* WorkWithSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A7882C2B9BA69D00269362 /* WorkWithSlider.swift */; };
+		C0B646F82BA23BFB00CB82AF /* WorkWithNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B646F72BA23BFB00CB82AF /* WorkWithNavigationStack.swift */; };
+		C0C212DA2B9C7DEC0079D5DE /* WorkWithStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C212D92B9C7DEC0079D5DE /* WorkWithStepper.swift */; };
+		C0CE51122B9C19B200DCF88D /* WorkWIthPickerVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE51112B9C19B200DCF88D /* WorkWIthPickerVertical.swift */; };
 		C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */; };
 		C0EABFD62B97B39A0045A7B4 /* WorkWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EABFD52B97B39A0045A7B4 /* WorkWithImage.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		C00FE3BC2B98922B000B928D /* WorkWithGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithGradients.swift; sourceTree = "<group>"; };
+		C0567A202BA0DE4A00C5509F /* WorkWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithList.swift; sourceTree = "<group>"; };
 		C077CAD52B83ECCE009CD3BD /* SwitUI_Ian_Solomen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitUI_Ian_Solomen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077CAD82B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitUI_Ian_SolomenApp.swift; sourceTree = "<group>"; };
 		C077CADA2B83ECCE009CD3BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +62,12 @@
 		C079697E2B8508D900434BE1 /* VHZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHZStacks.swift; sourceTree = "<group>"; };
 		C099914B2B9B7B4500B1173B /* WorkWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithButton.swift; sourceTree = "<group>"; };
 		C09E7AB02B9A461B00F30281 /* WorkWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithToggle.swift; sourceTree = "<group>"; };
+		C0A196132B9DD4480080BACF /* WorkWithClick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithClick.swift; sourceTree = "<group>"; };
 		C0A788292B9BA44F00269362 /* WorkWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTextField.swift; sourceTree = "<group>"; };
+		C0A7882C2B9BA69D00269362 /* WorkWithSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithSlider.swift; sourceTree = "<group>"; };
+		C0B646F72BA23BFB00CB82AF /* WorkWithNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithNavigationStack.swift; sourceTree = "<group>"; };
+		C0C212D92B9C7DEC0079D5DE /* WorkWithStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithStepper.swift; sourceTree = "<group>"; };
+		C0CE51112B9C19B200DCF88D /* WorkWIthPickerVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWIthPickerVertical.swift; sourceTree = "<group>"; };
 		C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWIthText.swift; sourceTree = "<group>"; };
 		C0EABFD52B97B39A0045A7B4 /* WorkWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +105,14 @@
 			path = 4_Gradient;
 			sourceTree = "<group>";
 		};
+		C0567A1F2BA0DE0600C5509F /* 12_List */ = {
+			isa = PBXGroup;
+			children = (
+				C0567A202BA0DE4A00C5509F /* WorkWithList.swift */,
+			);
+			path = 12_List;
+			sourceTree = "<group>";
+		};
 		C077CACC2B83ECCE009CD3BD = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +136,12 @@
 		C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
 			isa = PBXGroup;
 			children = (
+				C0B646F62BA23BE200CB82AF /* 13_NavigatinStack */,
+				C0567A1F2BA0DE0600C5509F /* 12_List */,
+				C0A196122B9DD4290080BACF /* 11_Click_and_Tap */,
+				C0C212D82B9C7DCA0079D5DE /* 10_State_Stepper */,
+				C0CE51102B9C195B00DCF88D /* 9_State_Picker_Vertical */,
+				C0A7882B2B9BA67400269362 /* 8_State_Slider */,
 				C099914D2B9B830100B1173B /* 7_State_TextFIeld */,
 				C099914A2B9B7B2600B1173B /* 6_State_Button */,
 				C09E7AAF2B9A45FD00F30281 /* 5_State_Toggle */,
@@ -186,6 +212,46 @@
 				C09E7AB02B9A461B00F30281 /* WorkWithToggle.swift */,
 			);
 			path = 5_State_Toggle;
+			sourceTree = "<group>";
+		};
+		C0A196122B9DD4290080BACF /* 11_Click_and_Tap */ = {
+			isa = PBXGroup;
+			children = (
+				C0A196132B9DD4480080BACF /* WorkWithClick.swift */,
+			);
+			path = 11_Click_and_Tap;
+			sourceTree = "<group>";
+		};
+		C0A7882B2B9BA67400269362 /* 8_State_Slider */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7882C2B9BA69D00269362 /* WorkWithSlider.swift */,
+			);
+			path = 8_State_Slider;
+			sourceTree = "<group>";
+		};
+		C0B646F62BA23BE200CB82AF /* 13_NavigatinStack */ = {
+			isa = PBXGroup;
+			children = (
+				C0B646F72BA23BFB00CB82AF /* WorkWithNavigationStack.swift */,
+			);
+			path = 13_NavigatinStack;
+			sourceTree = "<group>";
+		};
+		C0C212D82B9C7DCA0079D5DE /* 10_State_Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				C0C212D92B9C7DEC0079D5DE /* WorkWithStepper.swift */,
+			);
+			path = 10_State_Stepper;
+			sourceTree = "<group>";
+		};
+		C0CE51102B9C195B00DCF88D /* 9_State_Picker_Vertical */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE51112B9C19B200DCF88D /* WorkWIthPickerVertical.swift */,
+			);
+			path = 9_State_Picker_Vertical;
 			sourceTree = "<group>";
 		};
 		C0D367A12B93B945001966F0 /* 2_Text */ = {
@@ -335,11 +401,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */,
+				C0B646F82BA23BFB00CB82AF /* WorkWithNavigationStack.swift in Sources */,
+				C0A7882D2B9BA69D00269362 /* WorkWithSlider.swift in Sources */,
+				C0C212DA2B9C7DEC0079D5DE /* WorkWithStepper.swift in Sources */,
 				C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */,
+				C0567A212BA0DE4A00C5509F /* WorkWithList.swift in Sources */,
 				C099914C2B9B7B4500B1173B /* WorkWithButton.swift in Sources */,
+				C0CE51122B9C19B200DCF88D /* WorkWIthPickerVertical.swift in Sources */,
 				C0A7882A2B9BA44F00269362 /* WorkWithTextField.swift in Sources */,
 				C0EABFD62B97B39A0045A7B4 /* WorkWithImage.swift in Sources */,
 				C077CAD92B83ECCE009CD3BD /* SwitUI_Ian_SolomenApp.swift in Sources */,
+				C0A196142B9DD4480080BACF /* WorkWithClick.swift in Sources */,
 				C00FE3BD2B98922B000B928D /* WorkWithGradients.swift in Sources */,
 				C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */,
 				C09E7AB12B9A461B00F30281 /* WorkWithToggle.swift in Sources */,

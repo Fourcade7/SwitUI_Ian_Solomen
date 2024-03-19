@@ -72,7 +72,7 @@ private struct Lesson12_1:View{
             //without :Identifiable
             List(foodlist,id: \.self.id){ food in
                 RestaurantItem(restaurantModel: food)
-            }
+            }.listStyle(.grouped)
             //with :Idintifiable
             List(foodlist){ food in
                 RestaurantItem(restaurantModel: food)

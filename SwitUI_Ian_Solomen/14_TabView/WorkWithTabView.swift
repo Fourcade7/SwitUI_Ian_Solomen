@@ -64,7 +64,7 @@ private struct Lesson14_1:View{
                     Label("Notification", systemImage: "bell")
                 }
             Text("Settings")
-                .tabItem {
+                .tabItem { 
                     Label("Settings", systemImage: "gearshape")
                 }
         }
@@ -74,7 +74,7 @@ private struct Lesson14_1:View{
 
 struct Lesson14Preview:PreviewProvider{
     static var previews: some View{
-        Lesson14_1()
+        Lesson14()
     }
 }
  

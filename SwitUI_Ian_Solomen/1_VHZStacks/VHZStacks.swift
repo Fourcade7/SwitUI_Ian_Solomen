@@ -262,6 +262,6 @@ private struct lesson1_7:View{
 
 struct lesson1_preview:PreviewProvider{
     static var previews: some View{
-        lesson1_6()
+        lesson1_7()
     }
 }

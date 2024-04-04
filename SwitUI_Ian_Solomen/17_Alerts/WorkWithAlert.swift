@@ -13,6 +13,7 @@ import SwiftUI
 
 private struct Lesson17:View{
     @State var showalert1=false
+    @State var showactionsheet=false
     var body: some View{
         VStack{
             Button("Show Alert"){
@@ -27,10 +28,10 @@ private struct Lesson17:View{
             }
             
             Button("Show ActionSheet"){
-                showalert1 = !showalert1
+                showactionsheet = !showactionsheet
             }
             .buttonStyle(.borderedProminent)
-            .confirmationDialog("Action Sheet title",isPresented: $showalert1){
+            .confirmationDialog("Action Sheet title",isPresented: $showactionsheet){
                 Button("cancel",role: .cancel){}
                 Button("destructive",role: .destructive){}
                 Button("none",role: .none){}

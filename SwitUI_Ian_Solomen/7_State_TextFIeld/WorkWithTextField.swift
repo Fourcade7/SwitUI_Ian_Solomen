@@ -28,6 +28,30 @@ private struct Lesson7:View{
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             Text(name)
+            
+            //new
+            Text(name)
+            TextField("First name", text: $name)
+                .padding(8)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(Color.green, lineWidth: 2)
+                )
+                .padding(.horizontal)
+            TextField("First name", text: $name)
+                .padding(8)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 8)
+                        .stroke(Color.green, lineWidth: 2)
+                ).padding(.horizontal)
+            //Work with struct @State working
+            
+            Text("Work with class")
+            
+            TextField("Name",text: $name)
+                .textFieldStyle(.roundedBorder)
+                .padding(.horizontal)
+            
         }
     }
 }

@@ -21,7 +21,7 @@ private struct Lesson9:View{
                     ForEach(colors.indices,id:\.self){index in
                         Text(colors[index])
                     }
-                }).pickerStyle(.segmented)
+                }).pickerStyle(.inline)
                 
                 Section("Selected colors"){
                     Text(colors[selectedColor])

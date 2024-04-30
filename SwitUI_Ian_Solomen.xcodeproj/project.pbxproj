@@ -22,6 +22,7 @@
 		C079697F2B8508D900434BE1 /* VHZStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C079697E2B8508D900434BE1 /* VHZStacks.swift */; };
 		C07B0C0A2BA6AC0D00608FC6 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B0C092BA6AC0D00608FC6 /* CalculatorApp.swift */; };
 		C086EFE12BAA0FA800CD6FB1 /* WorkWithAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086EFE02BAA0FA800CD6FB1 /* WorkWithAlert.swift */; };
+		C08E52242BC9D190007F9245 /* NoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E52232BC9D190007F9245 /* NoteApp.swift */; };
 		C09440812BC552B9003506AB /* WorkWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09440802BC552B9003506AB /* WorkWithModifiers.swift */; };
 		C099914C2B9B7B4500B1173B /* WorkWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099914B2B9B7B4500B1173B /* WorkWithButton.swift */; };
 		C09E7AB12B9A461B00F30281 /* WorkWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09E7AB02B9A461B00F30281 /* WorkWithToggle.swift */; };
@@ -33,6 +34,7 @@
 		C0CC06362BA3A47600334DD1 /* WorkWithTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CC06352BA3A47600334DD1 /* WorkWithTabView.swift */; };
 		C0CE51122B9C19B200DCF88D /* WorkWIthPickerVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CE51112B9C19B200DCF88D /* WorkWIthPickerVertical.swift */; };
 		C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */; };
+		C0DA153C2BC78E2100373A92 /* WorkWithUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA153B2BC78E2100373A92 /* WorkWithUserDefaults.swift */; };
 		C0DC87472BC5DED700359D27 /* WorkWithObservedPublishEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DC87462BC5DED700359D27 /* WorkWithObservedPublishEnv.swift */; };
 		C0EABFD62B97B39A0045A7B4 /* WorkWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EABFD52B97B39A0045A7B4 /* WorkWithImage.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +75,7 @@
 		C079697E2B8508D900434BE1 /* VHZStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHZStacks.swift; sourceTree = "<group>"; };
 		C07B0C092BA6AC0D00608FC6 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		C086EFE02BAA0FA800CD6FB1 /* WorkWithAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithAlert.swift; sourceTree = "<group>"; };
+		C08E52232BC9D190007F9245 /* NoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteApp.swift; sourceTree = "<group>"; };
 		C09440802BC552B9003506AB /* WorkWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithModifiers.swift; sourceTree = "<group>"; };
 		C099914B2B9B7B4500B1173B /* WorkWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithButton.swift; sourceTree = "<group>"; };
 		C09E7AB02B9A461B00F30281 /* WorkWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithToggle.swift; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		C0CC06352BA3A47600334DD1 /* WorkWithTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithTabView.swift; sourceTree = "<group>"; };
 		C0CE51112B9C19B200DCF88D /* WorkWIthPickerVertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWIthPickerVertical.swift; sourceTree = "<group>"; };
 		C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWIthText.swift; sourceTree = "<group>"; };
+		C0DA153B2BC78E2100373A92 /* WorkWithUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithUserDefaults.swift; sourceTree = "<group>"; };
 		C0DC87462BC5DED700359D27 /* WorkWithObservedPublishEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithObservedPublishEnv.swift; sourceTree = "<group>"; };
 		C0EABFD52B97B39A0045A7B4 /* WorkWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkWithImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +180,8 @@
 		C077CAD72B83ECCE009CD3BD /* SwitUI_Ian_Solomen */ = {
 			isa = PBXGroup;
 			children = (
+				C08E52222BC9D179007F9245 /* 23_Note_App */,
+				C0DA153A2BC78E0D00373A92 /* 22_UserDefaults */,
 				C00AD4882BC6B8320029D0E7 /* 21_NavigationLInk */,
 				C0DC87452BC5DEA700359D27 /* 20_ObservedObject_Published_Environment */,
 				C094407F2BC5529D003506AB /* 19_Modifiers */,
@@ -252,6 +258,14 @@
 				C086EFE02BAA0FA800CD6FB1 /* WorkWithAlert.swift */,
 			);
 			path = 17_Alerts;
+			sourceTree = "<group>";
+		};
+		C08E52222BC9D179007F9245 /* 23_Note_App */ = {
+			isa = PBXGroup;
+			children = (
+				C08E52232BC9D190007F9245 /* NoteApp.swift */,
+			);
+			path = 23_Note_App;
 			sourceTree = "<group>";
 		};
 		C094407F2BC5529D003506AB /* 19_Modifiers */ = {
@@ -340,6 +354,14 @@
 				C0D367A42B93B9BB001966F0 /* WorkWIthText.swift */,
 			);
 			path = 2_Text;
+			sourceTree = "<group>";
+		};
+		C0DA153A2BC78E0D00373A92 /* 22_UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C0DA153B2BC78E2100373A92 /* WorkWithUserDefaults.swift */,
+			);
+			path = 22_UserDefaults;
 			sourceTree = "<group>";
 		};
 		C0DC87452BC5DEA700359D27 /* 20_ObservedObject_Published_Environment */ = {
@@ -491,10 +513,12 @@
 				C077CADB2B83ECCE009CD3BD /* ContentView.swift in Sources */,
 				C0CC06362BA3A47600334DD1 /* WorkWithTabView.swift in Sources */,
 				C00AD48A2BC6B8520029D0E7 /* WorkWIthNavigationLink.swift in Sources */,
+				C0DA153C2BC78E2100373A92 /* WorkWithUserDefaults.swift in Sources */,
 				C0B646F82BA23BFB00CB82AF /* WorkWithNavigationStack.swift in Sources */,
 				C0A7882D2B9BA69D00269362 /* WorkWithSlider.swift in Sources */,
 				C0C212DA2B9C7DEC0079D5DE /* WorkWithStepper.swift in Sources */,
 				C0D367A52B93B9BB001966F0 /* WorkWIthText.swift in Sources */,
+				C08E52242BC9D190007F9245 /* NoteApp.swift in Sources */,
 				C086EFE12BAA0FA800CD6FB1 /* WorkWithAlert.swift in Sources */,
 				C0567A212BA0DE4A00C5509F /* WorkWithList.swift in Sources */,
 				C036B5472BC087D6000DACB1 /* FindFlag.swift in Sources */,
